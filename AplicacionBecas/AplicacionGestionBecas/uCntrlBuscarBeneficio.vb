@@ -7,7 +7,7 @@ Public Class uCntrlBuscarBeneficio
     Private Sub PantallaConsultarBeneficio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         Try
-            listarBeneficios()
+            'listarBeneficios()
 
         Catch
 
@@ -207,7 +207,7 @@ Public Class uCntrlBuscarBeneficio
         uCtrlEliminarBeneficio.Location = New Point(290, 48)
 
         dtaBuscarBeneficio.Rows.Clear()
-        listarBeneficios()
+        'listarBeneficios()
 
     End Sub
 
@@ -242,7 +242,7 @@ Public Class uCntrlBuscarBeneficio
         Catch
 
             dtaBuscarBeneficio.Rows.Clear()
-            listarBeneficios()
+            'listarBeneficios()
         End Try
     End Sub
 End Class

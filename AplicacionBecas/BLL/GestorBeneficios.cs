@@ -14,6 +14,10 @@ namespace BLL
 {
     public class GestorBeneficios
     {
+
+
+
+
         public string actividad;
 
         //private BeneficioRepository repBeneficio;

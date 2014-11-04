@@ -59,7 +59,7 @@
 
             Dim UCtrl As UCtrlAlerta = New UCtrlAlerta()
 
-            FrmIniciarSesion.principal.Controls.Add(UCtrl)
+            Me.Controls.Add(UCtrl)
             UCtrl.lblAlerta.Text = "El porcentaje debe ser un numero"
             UCtrl.Location = New Point(300, 100)
             UCtrl.BringToFront()
