@@ -1,7 +1,7 @@
-﻿Imports EntitiesLayer
+
 Imports System.Windows.Forms
 Imports System.Drawing
-
+Imports EntitiesLayer
 Public Class uCntrlBuscarBeneficio
 
     Private Sub PantallaConsultarBeneficio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
